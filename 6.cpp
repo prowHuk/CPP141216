@@ -1,1 +1,18 @@
-#включить<библиотеки iostream> использование пространства имен STD; Тип int myfunc(в инт,инт б) { инт сумма; сумма=А*Б; возврат сумма; } int основной() { Тип int А,Б,сум; соиь<<"одно число: "<<епси; Кин>>а; соиь<<"два числа: "<<епси; Кин>>ч; сумма = myfunc(a,б); функции cout<<сумме<<епси; система ("пауза"); вернуть 0; } 
+#include<iostream>
+using namespace std;
+int myfunc(int a,int b) {
+    int sum;
+    sum=a*b;
+    return sum;
+}
+int main() {
+    int a,b,sum;
+    cout<<"one number: "<<endl;
+    cin>>a;
+    cout<<"two number: "<<endl;
+    cin>>b;
+    sum = myfunc(a,b);
+    cout<<sum<<endl;    
+    system ("pause");
+    return 0;
+}
